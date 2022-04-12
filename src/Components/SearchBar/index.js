@@ -20,7 +20,7 @@ const SearchBar = () => {
         <div className='templates'>
             <ul className='template__choice'>
                 {projectTypes.map((proj, idx) => <li key={idx}><button 
-                 className={project.id == idx ? "active" : ""}
+                 className={project.id === idx ? "active" : ""}
                 onClick= {() => setProject(project => ({...project, "selected":proj, "id": idx}))}>{proj}</button></li>)}
             </ul>
         </div>
