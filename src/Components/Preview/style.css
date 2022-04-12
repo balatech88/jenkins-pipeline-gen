@@ -1,0 +1,28 @@
+.template-plane {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.config-plane {
+    color: azure;
+    padding: 10px;
+    border: 1px solid yellow;
+}
+
+.convert_arrow {
+    color: blue;
+    align-self: center;
+}
+
+.convert_arrow h1 {
+    font-weight: 2000;
+}
+
+
+.preview-plane {
+    color: azure;
+    padding: 10px;
+    border: 1px solid green;
+}
